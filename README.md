@@ -31,12 +31,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dep
 pip3 install -r requirements.txt
 ```
 
-This [link](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) contains the **word2vec pre-trained Google News corpus** (3 billion running words) word vector model (3 million 300-dimension English word vectors).
 
-It is mirroring the data from the official word2vec website:
-**GoogleNews-vectors-negative300.bin.gz**
-
-Please download this file in the same folder as this project.
 
 ## Structure of the project
 - The **connection.py** handles multithreaded connections to the SSH server via the paramiko API. 
